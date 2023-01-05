@@ -1,0 +1,9 @@
+<template>
+    <iframe
+        src="https://viettelpost.vn/order/tao-don-le"
+        width="100%"
+        height="500"
+        frameborder="0" 
+        target="_blank">
+    </iframe>
+</template>

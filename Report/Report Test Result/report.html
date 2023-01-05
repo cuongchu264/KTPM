@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+      <style>
+                    .errorMessage {
+                		font-size: 16px;
+    					font-family: Lato;
+    					font-weight: 300;
+    					color: black;
+                        display: inline;
+                        border-radius: 5px;
+                        padding: 1px;
+                	}
+                	.errorColor {
+                		background-color: #f7e1d4;
+                	}
+                	.failureColor {
+                		background-color: #f7d4d4;
+                	}
+                </style>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <link href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css" rel="stylesheet" /><script crossorigin="anonymous" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" src="https://code.jquery.com/jquery-3.1.1.min.js"></script><script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script><script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script></head>
+   <body style="color:rgba(47, 53, 69, 0.9);">
+      <div class="ui container" style="margin:40px;">
+         <h2 class="ui header">
+            <div class="content"><span style="font-size:30px; font-weight:300; font-family:Open Sans;"><span style="font-weight:600;">
+                     Test
+                     </span>
+                  Result
+                  </span><div>
+                  <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                     <div class="bar" style="width:100%;"></div>
+                  </div>
+               </div>
+               <div class="ui divider"></div>
+               <div class="sub header" style="margin-top: 15px;">
+                  <div class="ui mini statistics">
+                     <div class="statistic" data-tooltip="Total tests ran">
+                        <div class="value"><i class="folder open outline icon gray" style="padding-right:4px;"></i>56</div>
+                        <div class="label">
+                           Tests
+                           </div>
+                     </div>
+                     <div class="statistic" data-tooltip="Total successful test runs">
+                        <div class="value"><i class="check circle outline icon green" style="padding-right:4px;"></i>56</div>
+                        <div class="label">
+                           Passed
+                           </div>
+                     </div>
+                     <div class="statistic" data-tooltip="Total test runs with failed assertions">
+                        <div class="value"><i class="exclamation circle icon red" style="padding-right:4px;"></i>0</div>
+                        <div class="label">
+                           Failed
+                           </div>
+                     </div>
+                     <div class="statistic" data-tooltip="Total test runs with unanticipated errors">
+                        <div class="value"><i class="flag outline icon orange" style="padding-right:4px;"></i>0</div>
+                        <div class="label">
+                           Errored
+                           </div>
+                     </div>
+                     <div class="statistic" data-tooltip="Total runtime for all tests">
+                        <div class="value"><i class="hourglass half icon blue" style="padding-right:4px;"></i>00<span style="text-transform:lowercase; font-size:12px;">
+                              min
+                              </span></div>
+                        <div class="label">
+                           Runtime
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </h2>
+         <div class="ui styled fluid accordion" style="font-size: 16px; font-family: Open sans;">
+            <div class="title"><i class="angle right icon"></i><b style="font-family: Lato; font-size: 15px; color: #2f2f2f; font-weight: bold;">BMSTest.dll</b><div class="ui blue label" data-tooltip="Test suite runtime" style="float:right;"><i class="clock icon"></i><b>.922</b>
+                  sec
+                  </div>
+               <div class="ui label" style="border: 1px solid #80808045;"><b>
+                     Test Suite
+                     </b></div>
+               <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>56</b>
+                  passed
+                  </div>
+               <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                  <div class="bar" style="width:100%;"></div>
+               </div>
+            </div>
+            <div class="content">
+               <div class="accordion" style="background-color:#00000017;">
+                  <div class="title"><i class="dropdown icon"></i><b>BMSTest.TestLoginXUnit</b><div class="ui blue label" data-tooltip="Test class runtime" style="float:right;"><i class="clock icon"></i><b>.285</b>
+                        sec
+                        </div>
+                     <div class="ui label" style="background-color: rgba(255, 255, 255, 0.66); border: 1px solid #bbb6b6;"><b>
+                           Test Class
+                           </b></div>
+                     <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>22</b></div>
+                     <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                        <div class="bar" style="width:100%;"></div>
+                     </div>
+                  </div>
+                  <div class=" content">
+                     <div class="accordion">
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congdat123", password: "")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.002</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "", password: "cnd21123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.1</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congda2t1", password: "cnd211223")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "cong2dat21", password: "cnd2112323")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congdat1243", password: "cnd2112312")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "co2n2gdat1", password: "cn2d221123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congdat214", password: "cnd211d23")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congdat123", password: "cnd210601")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "co2ngdat21", password: "cnd222123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_UserName(userName: "congdat321", password: "cnd211323")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congda2t1", password: "cnd211223")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congdat214", password: "cnd211d23")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "cong2dat21", password: "cnd2112323")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "", password: "cnd21123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congdat321", password: "cnd211323")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "co2n2gdat1", password: "cn2d221123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congdat123", password: "cnd210601")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "co2ngdat21", password: "cnd222123")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congdat1243", password: "cnd2112312")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>
+                                 ~ 0
+                                 </b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail_With_Null_Password(userName: "congdat123", password: "")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.007</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Success(userName: "congdat123", password: "cnd210601")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.171</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Login_Fail(userName: "congssdat123", password: "cnd210601")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.005</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                     </div>
+                  </div>
+                  <div class="title"><i class="dropdown icon"></i><b>BMSTest.UnitTest.TestDeleteXUnit</b><div class="ui blue label" data-tooltip="Test class runtime" style="float:right;"><i class="clock icon"></i><b>.104</b>
+                        sec
+                        </div>
+                     <div class="ui label" style="background-color: rgba(255, 255, 255, 0.66); border: 1px solid #bbb6b6;"><b>
+                           Test Class
+                           </b></div>
+                     <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>1</b></div>
+                     <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                        <div class="bar" style="width:100%;"></div>
+                     </div>
+                  </div>
+                  <div class=" content">
+                     <div class="accordion">
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Delete_Success(id: 34)</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.104</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                     </div>
+                  </div>
+                  <div class="title"><i class="dropdown icon"></i><b>BMSTest.UnitTest.TestNewsXUnit</b><div class="ui blue label" data-tooltip="Test class runtime" style="float:right;"><i class="clock icon"></i><b>.16</b>
+                        sec
+                        </div>
+                     <div class="ui label" style="background-color: rgba(255, 255, 255, 0.66); border: 1px solid #bbb6b6;"><b>
+                           Test Class
+                           </b></div>
+                     <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>9</b></div>
+                     <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                        <div class="bar" style="width:100%;"></div>
+                     </div>
+                  </div>
+                  <div class=" content">
+                     <div class="accordion">
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_Null_Image(newTitle: "Title", newComment: "Comment", newImg:
+                                 "", newLink: "newLink.com", newCategory: 1, newCategoryName: "New Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.103</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_Null_CategoryName(newTitle: "Title", newComment: "Comment",
+                                 newImg: "Image.png", newLink: "newLink.com", newCategory: 1, newCategoryName: "")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.007</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_Null_Link(newTitle: "Title", newComment: "Comment", newImg:
+                                 "Image.png", newLink: "", newCategory: 1, newCategoryName: "New Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_CategoryId_Less_Than_0(newTitle: "Title", newComment: "Comment",
+                                 newImg: "Image.png", newLink: "newLink.com", newCategory: -1, newCategoryName: "New
+                                 Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.005</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_Null_Title(newTitle: "", newComment: "Comment", newImg: "Image.png",
+                                 newLink: "newLink.com", newCategory: 1, newCategoryName: "New Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Success(newTitle: "Title", newComment: "Comment", newImg: "Image.png",
+                                 newLink: "newLink.com", newCategory: 1, newCategoryName: "New Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.017</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_Null_Comment(newTitle: "Title", newComment: "", newImg: "Image.png",
+                                 newLink: "newLink.com", newCategory: 1, newCategoryName: "New Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.005</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Delete_News(newId: 1006)</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_News_Fail_With_CategoryId_As_0(newTitle: "Title", newComment: "Comment",
+                                 newImg: "Image.png", newLink: "newLink.com", newCategory: 0, newCategoryName: "New
+                                 Category")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.004</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                     </div>
+                  </div>
+                  <div class="title"><i class="dropdown icon"></i><b>BMSTest.UnitTest.TestProductXUnit</b><div class="ui blue label" data-tooltip="Test class runtime" style="float:right;"><i class="clock icon"></i><b>.165</b>
+                        sec
+                        </div>
+                     <div class="ui label" style="background-color: rgba(255, 255, 255, 0.66); border: 1px solid #bbb6b6;"><b>
+                           Test Class
+                           </b></div>
+                     <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>10</b></div>
+                     <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                        <div class="bar" style="width:100%;"></div>
+                     </div>
+                  </div>
+                  <div class=" content">
+                     <div class="accordion">
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Delete_Product(productId: 10081)</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.103</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Price_Less_Than_0(productName: "Ngói", categoryId: 4,
+                                 price: -1, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500, img1:
+                                 "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.007</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Success(productName: "Ngói", categoryId: 4, price: 2000, avatar:
+                                 "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.013</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Null_Avatar(productName: "Ngói", categoryId: 4, price:
+                                 2000, avatar: "", description: "Ngói lặp mái ", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Null_CategoryID(productName: "Ngói", categoryId: 0, price:
+                                 2000, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Null_description(productName: "Ngói", categoryId: 4, price:
+                                 2000, avatar: "ngoi.img", description: "", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.011</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Instock_Less_0(productName: "Ngói", categoryId: 4, price:
+                                 2000, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: -1, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.005</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_CategoryID_Less_Than_0(productName: "Ngói", categoryId:
+                                 -1, price: 2000, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500,
+                                 img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Null_Price(productName: "Ngói", categoryId: 4, price:
+                                 0, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.004</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Post_Product_Fail_With_Null_ProductName(productName: "", categoryId: 4, price:
+                                 2000, avatar: "ngoi.img", description: "Ngói lặp mái ", inStocks: 3500, img1: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.005</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                     </div>
+                  </div>
+                  <div class="title"><i class="dropdown icon"></i><b>BMSTest.TestRegisterXUnit</b><div class="ui blue label" data-tooltip="Test class runtime" style="float:right;"><i class="clock icon"></i><b>.208</b>
+                        sec
+                        </div>
+                     <div class="ui label" style="background-color: rgba(255, 255, 255, 0.66); border: 1px solid #bbb6b6;"><b>
+                           Test Class
+                           </b></div>
+                     <div class="ui green label" data-tooltip="Total successful test runs" style="float:right;"><i class="check circle outline icon"></i><b>14</b></div>
+                     <div class="ui active indicating progress" data-percent="100" style="margin-top:10px;">
+                        <div class="bar" style="width:100%;"></div>
+                     </div>
+                  </div>
+                  <div class=" content">
+                     <div class="accordion">
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_Phone(userName: "abcxyz", password: "Cnd21060191@", fullName:
+                                 "Nguyen Cong Dat", email: "cnd210621@gmail.com", phone: "", address: "Ly Son", avatar:
+                                 "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.104</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_UserName(userName: "", password: "Cnd21060191@", fullName:
+                                 "Nguyen Cong Dat", email: "cnd210601@gmail.com", phone: "0359182080", address: "Ly
+                                 Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_Success(userName: "congdat12345", password: "Cnd21060191@", fullName:
+                                 "Nguyen Cong Dat", email: "cnd210601@gmail.com", phone: "0359182080", address: "Ly
+                                 Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.007</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Email_Is_invalid(userName: "testIsInvalidEmail", password: "Abc@12345678",
+                                 fullName: "Nguyen Cong Dat", email: "cnd210621", phone: "0359182080", address: "Ly
+                                 Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_Email(userName: "abcxyz", password: "Cnd21060191@", fullName:
+                                 "Nguyen Cong Dat", email: "", phone: "0359182080", address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.009</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_Address(userName: "abcxyz", password: "Cnd21060191@", fullName:
+                                 "Nguyen Cong Dat", email: "cnd210621", phone: "0359182080", address: "", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.011</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Password_Not_Have_One_Specialcase(userName: "testnotspecialcase",
+                                 password: "ABC1223asd1231", fullName: "Nguyen Cong Dat", email: "cnd210621@gmail.com",
+                                 phone: "0359182080", address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_Password(userName: "abcxyzzz", password: "", fullName: "Nguyen
+                                 Cong Dat", email: "cnd210601@gmail.com", phone: "0359182080", address: "Ly Son", avatar:
+                                 "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.007</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Password_Not_Have_One_Lowercase(userName: "testnotlowercase", password:
+                                 "ABC1223@1231", fullName: "Nguyen Cong Dat", email: "cnd210621@gmail.com", phone:
+                                 "0359182080", address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Password_Less_Than_8_Characters(userName: "testcharacters", password:
+                                 "ABa@31", fullName: "Nguyen Cong Dat", email: "cnd210621@gmail.com", phone: "0359182080",
+                                 address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_Fail(userName: "congdat123", password: "Cnd21060191@", fullName: "Nguyen
+                                 Cong Dat", email: "cnd210601@gmail.com", phone: "0359182080", address: "Ly Son", avatar:
+                                 "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.009</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Password_Not_Have_One_Numberic(userName: "testnotnumberic", password:
+                                 "ABCabc@av", fullName: "Nguyen Cong Dat", email: "cnd210621@gmail.com", phone: "0359182080",
+                                 address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Password_Not_Have_One_Uppercase(userName: "testnotuppercase", password:
+                                 "cnd210601", fullName: "Nguyen Cong Dat", email: "cnd210621@gmail.com", phone: "0359182080",
+                                 address: "Ly Son", avatar: "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.008</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                        <div class="title" style="color:#212121; background-color:#baf3b7;cursor:default;"><i class="check circle outline icon" style="color:#5f5f5f; margin-right:15px;"></i><span style="font-family: Open Sans; font-weight: 300;"><b style="font-family: Lato; font-weight: bold;">test_Register_with_Null_FullName(userName: "abcxyz", password: "Cnd21060191@", fullName:
+                                 "", email: "cnd210601@gmail.com", phone: "0359182080", address: "Ly Son", avatar:
+                                 "String")</b></span><div class="ui blue label" data-tooltip="Test runtime" style="float:right;"><i class="clock icon"></i><b>.006</b>
+                              sec
+                              </div>
+                        </div>
+                        <div class="content" style="padding:0px;"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div><script>
+                    $(document).ready(function(){
+						$('.ui.accordion').accordion();
+						$('.top.menu .item').tab();
+					});
+                </script></body>
+</html>
